@@ -76,6 +76,10 @@ header .profile-image {
 header .profile-image:hover {
   transform: scale(1.2);
 }
+.card-image {
+  max-width: 100%;
+  border-radius: 6px;
+}
 .tag {
   background-color: #efefef;
   color: black;
@@ -97,6 +101,7 @@ header .profile-image:hover {
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
+  align-content: center;
 }
 .card:hover {
   border-color: #ff99ff;
